@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ganjilataugenap(number){
+    if (number % 2 == 0) {
+        alert(`genap ${number}`); 
+    } else{
+        alert(`ganjil ${number}`);
+}
+}
+    </script>
+    <label>Masukkan Nomor yang kamu ingin cek apakah ganjil atua genap</label><br>
+    <input type="number" id="number"><br>
+    <button onclick="ganjilataugenap(document.getElementById('number').value)">cek</button>
+</body>
+</html>
